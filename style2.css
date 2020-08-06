@@ -1,0 +1,207 @@
+
+body {
+    background-image:linear-gradient(rgb(39, 39, 39), black);
+    font-family: 'Roboto', sans-serif;
+    color: whitesmoke;
+    font-size: 0.75rem;
+}
+
+
+.container {
+    width: 800px;
+    min-height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    min-width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+main {
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    
+}
+h1 {
+    font-size: 2.25rem;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 2rem;
+}
+
+.herobox1 {
+    flex: 0.9;
+}
+
+.herobox2 {
+    flex: 0.1;
+    padding-left: 20px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.card1 {
+    background-image: url(/Image/Visit\ Card\ 1.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    min-height: 300px;
+    width: 30%;
+}
+.card2 {
+    background-image: url(/Image/Ziemer.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    min-height: 300px;
+    width: 30%;
+}
+
+.card3 {
+    background-image: url(/Image/IRBBOYS\ TITLE.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    min-height: 300px;
+    width: 30%;
+}
+
+.cards h2 {
+    font-size: 1.5rem;
+    font-family: 'Playfair Display', serif;
+}
+
+.herobox1 p {
+    line-height: 1.7rem;
+}
+
+.cards p {
+    font-size: 0.85rem;
+}
+
+a:hover .content{
+    visibility: hidden;   
+}
+
+.content {
+   box-shadow: inset 0 0 0 50vw rgba(29, 29, 29, 0.959);
+   visibility: visible;
+   min-height: 300px;
+   min-width: 30%;
+   border-radius: 8px;
+}
+.cards a{
+    color: rgb(170, 170, 170);
+    text-decoration: none;
+    line-height: 1.8rem;
+    box-shadow: 2px 2px 10px 3px rgba(0,0,0,0.04), 1px 1px 3px 2px rgba(0,0,0,0.09);
+}
+  
+.cards img {
+    opacity: 0.5;
+    width: 22%;
+}
+
+.arrange {
+    padding-top: 100px;
+}
+/* .card1, .card2, .card3 {
+    box-sizing: border-box;
+} */
+
+.button1 {
+    border-radius: 8px;
+    padding: 8px 16px;
+    font-size: 1rem;
+    font-family: 'Playfair Display', serif;
+    background-color: #535353; color: rgb(221, 221, 221);
+    margin-top: 10px;
+    box-shadow: 2px 2px 10px 3px rgba(0,0,0,0.19), 1px 1px 3px 2px rgba(0,0,0,0.29);
+    transition: 0.5s;
+}
+
+.button1:hover {
+    background-color: #f0f0f0; color: rgb(88, 88, 88);
+}
+
+.button2 {
+    border-radius: 8px;
+    padding: 8px 20px;
+    font-size: .8rem;
+    font-family: 'Playfair Display', serif;
+    border-width: 1px;
+    background-color: #535353; color: rgb(221, 221, 221);
+    margin-top: 8px;
+    box-shadow: 2px 2px 10px 3px rgba(0,0,0,0.19), 1px 1px 3px 2px rgba(0,0,0,0.29);
+    transition: 0.5s;  
+}
+.button2:hover {
+    background-color: #f0f0f0; color: rgb(88, 88, 88);
+}
+
+.noline2{
+    text-decoration: none;
+    color: inherit;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.text{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+
+.text1{
+    background-color: #1f1e1e; color: rgb(143, 143, 143);
+    border-radius: 10px;
+    padding: 50px;
+    width: 47%;
+    margin-top: 50px;
+    box-sizing: border-box;
+}
+
+.dropdown-box{
+    display: inline-block;
+    
+}
+.button3 {
+       /* position: relative; */
+       text-align: center;   
+       padding-bottom: 8px;
+       padding-top: 6px;
+       
+}
+.dropdown-ins {
+    visibility: hidden;
+    position: absolute;
+    background-color: #f1efef;
+    border-radius: 5px;
+    transition-delay: .3s;
+}
+
+.dropdown-box:hover .dropdown-ins {
+    visibility: visible;
+    padding: 12px;
+    margin-top: 10px;
+    z-index: -21;  
+}
+.button3 a {
+    text-decoration: none;
+    color: inherit;  
+}
+
+
